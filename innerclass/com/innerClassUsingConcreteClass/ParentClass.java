@@ -9,9 +9,19 @@ package com.innerClassUsingConcreteClass;
  */
 public class ParentClass {
 	
-	public void definedMethod()
+	public void definedMethod1()
 	{
-		System.out.println("this method is from parent class");
+		System.out.println("this is method1 is from parent class");
+	}
+	
+	public void definedMethod2()
+	{
+		System.out.println("this is method2 is from parent class");
+	}
+	
+	public void definedMethod3()
+	{
+		System.out.println("this is method3 is from parent class");
 	}
 
 }
